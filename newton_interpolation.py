@@ -56,11 +56,8 @@ def divided_diff(array_diffs, x, y, x_to):
     return acum
 
 
-#array = split_array([0, 1, 2, 3], )
-# print(array)
 array = get_all_arrays(4)
 x = [1, 3, 4, 6, 5]
 y = [0, 1.098612289, 1.386294, 1.791759, 1.609438]
 ret = divided_diff(array, x, y, 7)
 print(ret)
-#print(calculate_mul(2, x, 3))
